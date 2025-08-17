@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "mystalis",
+	"version": "${version}",
+	"name": "Mystalis",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mystalis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"toki.mystalis.Mystalis"
+		],
+		"client": [
+			"toki.mystalis.MystalisClient"
+		],
+		"fabric-datagen": [
+			"toki.mystalis.MystalisDataGenerator"
+		]
+	},
+	"mixins": [
+		"mystalis.mixins.json",
+		{
+			"config": "mystalis.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

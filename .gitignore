@@ -1,0 +1,68 @@
+# --------------------------
+# Java & Fabric Mod .gitignore
+# --------------------------
+
+# Compiled output
+/build/
+**/build/
+
+# Yarn remapped sources
+.remapped/
+out/
+run/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Gradle
+.gradle/
+gradle-app.setting
+gradle.properties
+gradletasknamecache
+
+# Ignore generated data (e.g., datagen outputs)
+generated/
+generated_test/
+src/generated/
+
+# Fabric-specific
+# (from loom and remapping tasks)
+.cache/
+logs/
+.DS_Store
+
+# Local run configs and environment files
+*.env
+*.run
+*.launch
+*.swp
+*.tmp
+
+# Gradle wrapper (exceptions to not ignore)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Ignore logs
+*.log
+
+# Ignore compiled classes and temporary files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore crash-reports (if any)
+crash-reports/
+
+# Minecraft specific
+hs_err_pid*
