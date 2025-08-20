@@ -1,7 +1,7 @@
 package toki.mystalis;
 
 import net.fabricmc.api.ModInitializer;
-import toki.mystalis.block.ModBlocks;
+import toki.mystalis.registry.ModBlocks;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

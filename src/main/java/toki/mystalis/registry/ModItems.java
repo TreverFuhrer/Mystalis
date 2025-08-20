@@ -1,4 +1,4 @@
-package toki.mystalis.item;
+package toki.mystalis.registry;
 
 public class ModItems {
     

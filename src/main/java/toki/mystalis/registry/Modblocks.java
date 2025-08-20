@@ -1,4 +1,4 @@
-package toki.mystalis.block;
+package toki.mystalis.registry;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;

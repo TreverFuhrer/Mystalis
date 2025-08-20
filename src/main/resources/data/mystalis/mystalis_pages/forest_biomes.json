@@ -1,0 +1,9 @@
+{
+  "id": "mystalis:forest_biomes",
+  "category": "BIOME",
+  "stability": 0,
+  "excludes_any": [],
+  "requires_any": [],
+  "essence": "minecraft:oak_sapling",
+  "generator_hooks": { "preset_tag": "forest" }
+}
